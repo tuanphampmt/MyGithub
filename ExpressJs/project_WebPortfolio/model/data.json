@@ -1,0 +1,61 @@
+{
+  "product" : [
+    {
+      "id": 123,
+      "title": "Thiết kế Website",
+      "bigImage": "/images/header.jpg",
+      "productImage": ["/images/pflo1.jpg","/images/pflo2.jpg"],
+      "description": "Với những màn trình diễn khá ổn ở Jong Heerenveen cũng như ĐTQG Việt Nam, rất có thể Văn Hậu sẽ sớm được chính thức ra sân ở Hà Lan với lịch thi đấu \"hành xác\" của đội nhà.",
+      "client": "Sakura",
+      "workDone": "Coder",
+      "cat": "DesignWeb",
+      "linkWeb": "https://themes.ishyoboy.com/?theme=wert-html",
+      "linkSEO": "thiet-ke-Website-tuanpham",
+      "nameDesign": ["Logotype Design","Brochure Design"]
+
+    },
+
+    {
+      "id": 124,
+      "title": "Thiết kế logo",
+      "bigImage": "/images/header2.jpg",
+      "productImage": ["/images/pflo3.jpg","/images/p7.jpg"],
+      "description": "Tính năng đóng góp bản dịch của Google đang bị lợi dụng để truyền tải những thông điệp cá nhân, ảnh hưởng cộng đồng",
+      "client": "Naruto",
+      "workDone": "Designer",
+      "cat": "Branding",
+      "linkWeb": "https://www.24h.com.vn",
+      "linkSEO": "thiet-ke-logo",
+      "nameDesign": ["Logotype Design","Brochure Design"]
+    },
+
+    {
+      "id": 125,
+      "title": "Thiết kế web",
+      "bigImage": "/images/img1.jpg",
+      "productImage": ["/images/p5.jpg","/images/p3.jpg"],
+      "description": "Công Phượng là niềm hi vọng lớn nhất hàng công tuyển Việt Nam, nhưng lại đang đánh mất cảm giác bóng. HLV Park Hang Seo hãy làm gì đó cho CP15.",
+      "client": "Sasuke",
+      "workDone": "Deisign web",
+      "cat": "Coder",
+      "linkWeb": "https://soha.vn",
+      "linkSEO": "thiet-ke-web-24h",
+      "nameDesign": ["Logotype Design","Brochure Design"]
+    },
+
+    {
+      "id": 126,
+      "title": "Thiết kế Data",
+      "bigImage": "/images/img2.jpg",
+      "productImage": ["/images/p4.jpg","/images/blog5.jpg"],
+      "description": "Công Phượng là niềm hi vọng lớn nhất hàng công tuyển Việt Nam, nhưng lại đang đánh mất cảm giác bóng. HLV Park Hang Seo hãy làm gì đó cho CP15.",
+      "client": "Itachi",
+      "workDone": "Deisign web",
+      "cat": "DesignData",
+      "linkWeb": "https://soha.vn",
+      "linkSEO": "thiet-ke-data",
+      "nameDesign": ["Logotype Design","Brochure Design"]
+    }
+  ]
+
+}

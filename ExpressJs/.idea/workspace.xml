@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4374a09-8a1c-493e-9916-eb777beffe87" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Express" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="package.json" />
+        <option value="HTTP Request" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SCLlyYBODgUQaW0CHaTNHQ8YCf" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.vd1.js (2)">
+    <configuration name="TaoServer.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="TaoServer.js" working-dir="$PROJECT_DIR$/TaoSever">
+      <method v="2" />
+    </configuration>
+    <configuration name="fkd.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="fkd.js" working-dir="$PROJECT_DIR$/bai 01 - tao module co ban">
+      <method v="2" />
+    </configuration>
+    <configuration name="module1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="module1.js" working-dir="$PROJECT_DIR$/bai 01 - tao module co ban">
+      <method v="2" />
+    </configuration>
+    <configuration name="module.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bai01-module/module.js" working-dir="$PROJECT_DIR$/bai01-module">
+      <method v="2" />
+    </configuration>
+    <configuration name="vd1.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bai01-tao_module/vd1.js" working-dir="$PROJECT_DIR$/bai01-tao_module">
+      <method v="2" />
+    </configuration>
+    <configuration name="vd1.js (2)" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bai01-module/vd1.js" working-dir="$PROJECT_DIR$/bai01-module">
+      <method v="2" />
+    </configuration>
+    <configuration name="vd1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="vd1.js" working-dir="$PROJECT_DIR$/bai 01 - tao module co ban">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Express/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.vd1.js (1)" />
+        <item itemvalue="Node.js.module1.js" />
+        <item itemvalue="Node.js.fkd.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4374a09-8a1c-493e-9916-eb777beffe87" name="Default Changelist" comment="" />
+      <created>1571062785974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571062785974</updated>
+      <workItem from="1571062788658" duration="480000" />
+      <workItem from="1571063390002" duration="35000" />
+      <workItem from="1571063656643" duration="444000" />
+      <workItem from="1571107505395" duration="1057000" />
+      <workItem from="1571109479025" duration="358000" />
+      <workItem from="1571110104111" duration="1196000" />
+      <workItem from="1571115254510" duration="37000" />
+      <workItem from="1571115964790" duration="4000" />
+      <workItem from="1571116605773" duration="358000" />
+      <workItem from="1571128520366" duration="464000" />
+      <workItem from="1571129052451" duration="587000" />
+      <workItem from="1571131914301" duration="42000" />
+      <workItem from="1571132030443" duration="1152000" />
+      <workItem from="1571133278155" duration="240000" />
+      <workItem from="1571133549450" duration="79000" />
+      <workItem from="1571133649280" duration="506000" />
+      <workItem from="1571134534988" duration="4546000" />
+      <workItem from="1571151376522" duration="342000" />
+      <workItem from="1571191966006" duration="3000000" />
+      <workItem from="1571197330362" duration="831000" />
+      <workItem from="1571198633869" duration="436000" />
+      <workItem from="1571283337652" duration="2298000" />
+      <workItem from="1571286161280" duration="532000" />
+      <workItem from="1571654652646" duration="392000" />
+      <workItem from="1571895234008" duration="63000" />
+      <workItem from="1571895373877" duration="110000" />
+      <workItem from="1572455037028" duration="680000" />
+      <workItem from="1573101358748" duration="737000" />
+      <workItem from="1574221763394" duration="216000" />
+      <workItem from="1575109133791" duration="6369000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

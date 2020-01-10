@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <%  var x = 5 ;%>
+    <h2>Gia tri cua x la: <%= x%></h2>
+    <%
+      for (var i=1; i<10;i++)
+      {
+      %>
+        <h2>HELLO name No. <%= i%></h2>
+      <%
+      }
+    %>
+    <%
+        var arr = ["PHP", "Java", "Nodejs", "Javascript"];
+        arr.forEach(function (khoahoc) {
+        %>
+            <li>Khoa hoc <%= khoahoc %></li>
+      <%
+        })
+      %>
+  <%
+      var h2 = "<h2 style='color: green'> HELLO WORLD</h2>"
+  %>
+  <%- h2%>
+  </body>
+</html>
