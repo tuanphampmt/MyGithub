@@ -1,7 +1,6 @@
 const User = require("../models/user.model");
 
-const sgMail = require("@sendgrid/mail");
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+const nodemailer = require("nodemailer");
 
 const Token = require("../models/token.model");
 
@@ -37,6 +36,9 @@ module.exports = {
 
 			const user_ = await newUser.save();
 			sendEmail(user_, req, res);
+			res.status(200).json({
+				message: "A verification email has been sent to " + user_.email + "."
+			});
 		} catch (error) {
 			console.log(error);
 			res.status(500).json({
@@ -46,7 +48,7 @@ module.exports = {
 		}
 	},
 	getLogin: (req, res) => {
-		res.render('login')
+		res.render("login");
 	},
 	postLogin: async (req, res) => {
 		try {
@@ -130,7 +132,6 @@ module.exports = {
 					});
 
 				res.status(200).send("The account has been verified. Please log in.");
-		
 			});
 		} catch (error) {
 			res.status(500).json({
@@ -178,26 +179,45 @@ function sendEmail(user, req, res) {
 				message: err.message
 			});
 
+		//Tiến hành gửi mail, nếu có gì đó bạn có thể xử lý trước khi gửi mail
+		var transporter = nodemailer.createTransport({
+			// config mail server
+			host: "smtp.gmail.com",
+			port: 465,
+			secure: true,
+			auth: {
+				user: "phamminhtuan31798@gmail.com", //Tài khoản gmail vừa tạo
+				pass: "tuanvip12" //Mật khẩu tài khoản gmail vừa tạo
+			},
+			tls: {
+				// do not fail on invalid certs
+				rejectUnauthorized: false
+			}
+		});
+
 		let link = "http://" + req.headers.host + "/api/auth/verify/" + token.token;
+		var content = "";
+		content += `
+							<div style="padding: 10px; background-color: #003375">
+								<div style="padding: 10px; background-color: white;">
+									<h1 style="color: #0085ff">Hi ${user.username}</h1>
+									<p style="color: black">Please click on the following link ${link} to verify your account. \n\n 
+									If you did not request this, please ignore this email.\n</p>
+								</div>
+							</div>
+						`;
 
-		const mailOptions = {
+		var mainOptions = {
 			to: user.email,
-			from: process.env.FROM_EMAIL,
+			from: "phamminhtuan31798@gmail.com",
 			subject: "Account Verification Token",
-			text: `Hi ${user.username} \n 
-                    Please click on the following link ${link} to verify your account. \n\n 
-                    If you did not request this, please ignore this email.\n`
+			html: content
 		};
-
-		sgMail.send(mailOptions, (error, result) => {
+		transporter.sendMail(mainOptions, function(err, info) {
 			if (error)
 				return res.status(500).json({
 					message: error.message
 				});
-
-			res.status(200).json({
-				message: "A verification email has been sent to " + user.email + "."
-			});
 		});
 	});
 }

@@ -42,13 +42,6 @@ const UserSchema = new mongoose.Schema({
         required: false,
         max: 255
     },
-
-    profileImage: {
-        type: String,
-        required: false,
-        max: 255
-    },
-
     isVerified: {
         type: Boolean,
         default: false
@@ -86,7 +79,7 @@ UserSchema.pre('save',  function(next) {
 UserSchema.methods.comparePassword = function(password) {
     return bcrypt.compareSync(password, this.password);
 };
-
+// Đăng nhập thành công, tạo mã token cho user
 UserSchema.methods.generateJWT = function() {
     const today = new Date();
     const expirationDate = new Date(today);
@@ -118,5 +111,6 @@ UserSchema.methods.generateVerificationToken = function() {
 
     return new Token(payload);
 };
+
 
 module.exports = mongoose.model('Users', UserSchema);
