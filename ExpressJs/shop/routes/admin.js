@@ -1,5 +1,5 @@
-const ShoppingCart = require('../model/ShoppingCart.js');
-const Product = require('../model/Product.js');
+const ShoppingCart = require('../models/ShoppingCart.js');
+const Product = require('../models/Product.js');
 module.exports = (app, passport) => {
     app.get('/register', checkAuthenticated, async (req, res, next) => {
         try {

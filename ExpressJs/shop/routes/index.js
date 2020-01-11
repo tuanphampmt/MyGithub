@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
-var Product = require('../model/Product.js');
-var ShoppingCart = require('../model/ShoppingCart.js');
-var Customer = require('../model/Customer.js');
+var Product = require('../models/Product.js');
+var ShoppingCart = require('../models/ShoppingCart.js');
+var Customer = require('../models/Customer.js');
 /* GET home page. */
 const countJson = (json) => {
     var count = 0;
