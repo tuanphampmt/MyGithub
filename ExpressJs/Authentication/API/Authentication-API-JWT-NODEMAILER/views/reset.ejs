@@ -1,0 +1,72 @@
+<!-- views/login.ejs -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Node Authentication</title>
+		<link
+			rel="stylesheet"
+			href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"
+		/>
+		<!-- load bootstrap css -->
+		<link
+			rel="stylesheet"
+			href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+		/>
+		<!-- load fontawesome -->
+		<style>
+			body {
+				padding-top: 80px;
+			}
+		</style>
+		<link rel="stylesheet" href="/stylesheets/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="col-sm-6 col-sm-offset-3">
+				<h1><span class="fa fa-sign-in"></span> Update Password</h1>
+				<form
+					id="contactform"
+					name="contact"
+					method="post"
+					action="/api/auth/reset/<%= user.resetPasswordToken%>"
+				>
+					<div class="row">
+						<label for="password">Password <span class="req">*</span></label>
+						<input
+							type="password"
+							name="password"
+							class="txt"
+							tabindex="3"
+							required
+						/>
+					</div>
+					<div class="row">
+						<label for="confirmPassword"
+							>Password Confirmation<span class="req">*</span></label
+						>
+						<input
+							type="password"
+							name="confirmPassword"
+							class="txt"
+							tabindex="3"
+							required
+						/>
+					</div>
+
+					<div class="center" style="margin-top: 20px;">
+						<input
+							type="submit"
+							id="submitbtn"
+							name="submitbtn"
+							tabindex="5"
+							value="Reset"
+						/>
+					</div>
+				</form>
+				<hr />
+				<p>Need an account? <a href="/api/auth/register">Signup</a></p>
+				<p>Or go <a href="/">home</a>.</p>
+			</div>
+		</div>
+	</body>
+</html>
