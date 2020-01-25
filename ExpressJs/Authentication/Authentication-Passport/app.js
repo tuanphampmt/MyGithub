@@ -1,3 +1,4 @@
+require('dotenv').config();
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -48,12 +49,20 @@ app.use(function(req, res, next) {
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-mongoose.connect('mongodb://localhost/passport', {
-  keepAlive: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
-  useNewUrlParser: true,
-  useUnifiedTopology: true
+mongoose.promise = global.Promise;
+mongoose.connect(
+    'mongodb+srv://tuanpham31798:' + process.env.MONGODB_ATLS_PW + '@tuanpham31798-zt6uf.mongodb.net/' + process.env.MONGODB_ATLS_DATABASE + '?retryWrites=true&w=majority', {
+        keepAlive: true,
+        useCreateIndex: true,
+        useFindAndModify: false,
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    });
+const connection = mongoose.connection;
+connection.once('open', () => console.log('MongoDB --  Kết nối cơ sở dữ liệu thành công!'));
+connection.on('error', (err) => {
+    console.log("MongoDB lỗi kết nối. Hãy đảm bảo rằng mongodb đang chạy. " + err);
+    process.exit();
 });
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
