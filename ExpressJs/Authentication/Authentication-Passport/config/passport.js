@@ -1,5 +1,6 @@
 const LocalStrategy = require('passport-local').Strategy;
 const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
+var FacebookStrategy = require('passport-facebook').Strategy;
 const configAuth = require('./auth.js');
 const User = require('../models/User');
 module.exports = function (passport) {
@@ -50,12 +51,12 @@ module.exports = function (passport) {
         }
     };
 
-    const authenticateUserGoogle = async (token , refreshToken, profile, done) => {
+    const authenticateUserGoogle = async (token, refreshToken, profile, done) => {
         try {
             // tìm trong db xem có user nào đã sử dụng google id này chưa
             const user = await User.findOne({'google.id': profile.id});
             // Nếu tìm thấy user thì cho phép đăng nhập
-            if(user){
+            if (user) {
                 return done(null, user);
             }
             // Nếu người dùng không có trong db, hãy tạo một user mới
@@ -73,6 +74,34 @@ module.exports = function (passport) {
             console.log(e);
             done(e, false)
         }
+
+    };
+
+    // Facebook sẽ gửi lại chuối token và thông tin profile của user
+    const authenticateUserFacebook = async (token, refreshToken, profile, done) => {
+        try {
+            // tìm trong db xem có user nào đã sử dụng facebook id này chưa
+            const user = await User.findOne({'facebook.id': profile.id});
+
+            // Nếu tìm thấy user, cho họ đăng nhập
+            if (user) {
+                return done(null, user); // user found, return that user
+            }
+            // nếu chưa có, tạo mới user
+            var newUser = new User();
+            // lưu các thông tin cho user
+            newUser.facebook.id = profile.id;
+            newUser.facebook.token = token;
+            newUser.facebook.name = profile.name.givenName + ' ' + profile.name.familyName; // bạn có thể log đối tượng profile để xem cấu trúc
+            newUser.facebook.email = profile.emails[0].value; // fb có thể trả lại nhiều email, chúng ta lấy cái đầu tiền
+            // lưu vào db
+            await newUser.save();
+            done(null, newUser);
+        } catch (err) {
+            console.log(err);
+            done(err, false)
+        }
+
 
     };
     // Hàm được gọi khi xác thực thành công để lưu thông tin user vào session
@@ -104,5 +133,13 @@ module.exports = function (passport) {
         clientID: configAuth.googleAuth.clientID,
         clientSecret: configAuth.googleAuth.clientSecret,
         callbackURL: configAuth.googleAuth.callbackURL
-    }, authenticateUserGoogle))
+    }, authenticateUserGoogle));
+    passport.use(new FacebookStrategy({
+        // điền thông tin để xác thực với Facebook.
+        // những thông tin này đã được điền ở file auth.js
+        clientID: configAuth.facebookAuth.clientID,
+        clientSecret: configAuth.facebookAuth.clientSecret,
+        callbackURL: configAuth.facebookAuth.callbackURL,
+        profileFields: ['id', 'displayName', 'email', 'first_name', 'last_name', 'middle_name']
+    }, authenticateUserFacebook))
 };
