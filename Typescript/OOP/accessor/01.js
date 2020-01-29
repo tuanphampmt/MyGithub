@@ -6,11 +6,11 @@ var Employee = /** @class */ (function () {
         get: function () {
             return this._fullName;
         },
-        set: function (newName) {
-            if (newName && newName.length > fullNameMaxLength) {
+        set: function (fullName) {
+            if (fullName && fullName.length > fullNameMaxLength) {
                 throw new Error("fullName has a max length of " + fullNameMaxLength);
             }
-            this._fullName = newName;
+            this._fullName = fullName;
         },
         enumerable: true,
         configurable: true

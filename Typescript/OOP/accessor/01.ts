@@ -7,12 +7,12 @@ class Employee {
         return this._fullName;
     }
 
-    set fullName(newName: string) {
-        if (newName && newName.length > fullNameMaxLength) {
+    set fullName(fullName: string) {
+        if (fullName && fullName.length > fullNameMaxLength) {
             throw new Error("fullName has a max length of " + fullNameMaxLength);
         }
         
-        this._fullName = newName;
+        this._fullName = fullName;
     }
 }
 
