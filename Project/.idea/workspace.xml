@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6aeeee0e-a27c-4f1c-a3cb-3c330bf8bba0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/.idea/runConfigurations/bin_www.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/.idea/untitled1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/bin/www" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/models/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/images/characters/bulbasaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/images/characters/charmander.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/images/characters/ivysaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/images/characters/squirtle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/images/characters/venusaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/mjs/cart-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/mjs/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/mjs/libs/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/mjs/product-repository.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/mjs/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/mjs/shopping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/system.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/javascripts/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/stylesheets/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/stylesheets/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/stylesheets/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/stylesheets/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/stylesheets/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/typescripts/cart-item.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/typescripts/cart.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/typescripts/libs/validation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/typescripts/product-repository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/typescripts/product.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/public/typescripts/shopping.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/views/error.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping-cart/views/index.ejs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XKii4Ehqhl9XvB1o1VNo8D1Ha8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.5.0" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6aeeee0e-a27c-4f1c-a3cb-3c330bf8bba0" name="Default Changelist" comment="" />
+      <created>1580801311461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580801311461</updated>
+      <workItem from="1580801321117" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="384" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1580801330475">
+      <screen x="0" y="23" width="1440" height="786" />
+    </state>
+    <state x="384" y="248" key="com.intellij.ide.util.TipDialog/0.23.1440.786@0.23.1440.786" timestamp="1580801330475" />
+  </component>
+</project>
