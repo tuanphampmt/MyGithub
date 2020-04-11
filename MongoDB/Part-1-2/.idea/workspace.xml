@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80bbf05b-5e41-4974-b6b1-29a32b8feb2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/component-props-jsx/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hello-world/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React/hmtl-convert/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1XxsLY4xAHraAYJX0PQuhO3JnmZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.5.0" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80bbf05b-5e41-4974-b6b1-29a32b8feb2d" name="Default Changelist" comment="" />
+      <created>1581999024568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581999024568</updated>
+      <workItem from="1581999029592" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

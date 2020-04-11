@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy A51",
+    "price": 45,
+    "desc": "Giảm thêm 500.000đ qua galaxy gift và 1 km khác",
+    "content": "Galaxy A51 là một chiếc smartphone tầm trung nhưng lại sở hữu nhiều tính năng hấp dẫn, đặc biệt là hệ thống camera đỉnh cao chụp ảnh chuyên nghiệp và hiệu năng ấn tượng cùng với màn hình Super AMOLED. Thành viên mới này của gia đình Samsung Galaxy A hứa hẹn sẽ mang đến những trải nghiệm tuyệt vời cho người dùng với mức giá hấp dẫn. Bên cạnh đó, bạn cũng có thể tham khảo Samsung A71 với hệ thống camera chất lượng hơn và cấu hình mạnh mẽ hơn.",
+    "pathImage": "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/s/a/samsung-galaxy-a51-black_10.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Xiaomi Redmi Note 8 Pro",
+    "price": 50,
+    "desc": "Giảm thêm 500.000đ qua galaxy gift và 1 km khác",
+    "content": "Xiaomi Redmi Note 8 Pro là mẫu điện thoại tầm trung tiếp theo vừa được nhà sản xuất Trung Quốc ra mắt bên cạnh mẫu điện thoại Xiaomi Redmi Note 8. Remi note 8 Pro với nhiều nâng cấp và cải tiến hứa hẹn mang tới cho người dùng những trải nghiệm ấn tượng",
+    "pathImage": "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/6/3/637060435932431657_xiaomi-redmi-note-8-pro-xanh-1.png"
+  },
+  {
+    "id": 3,
+    "name": "Huawei Mate 30 Pro",
+    "price": 100,
+    "desc": "Tặng sim du lịch châu âu 38 nước 1gb / ngày / 15 ngày và 1 km khác",
+    "content": "Huawei Mate 30 Pro là smartphone lấy cảm hứng từ tương lai với loạt công nghệ mới được tích hợp, hứa hẹn vượt qua mọi mong đợi về trải nghiệm sử dụng của người dùng. Tiếp nối sự thành công của người tiền nhiệm Huawei Mate 20 Pro, thế hệ tiếp theo của dòng Mate đã không làm mọi người thất vọng và mang lại tiếng vang lớn trên thị trường.",
+    "pathImage": "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/m/a/mate30__0006_layer_4.jpg"
+  },
+  {
+    "id": 4,
+    "name": "IPhone 11 Pro Max Chính hãng(VN/A)",
+    "price": 200,
+    "desc": "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    "content": "iPhone 11 Pro là 1 trong 3 mẫu smartphone mới nhất được Apple ra mắt vào năm 2019, bên cạnh iPhone 11 và iPhone 11 Pro Max. Bộ ba siêu phẩm này đều tập trung về nâng cấp phần cứng và hiệu năng. Đặc biệt, chiếc iPhone 11 Pro có đến 3 camera có các chứng năng chụp hình và quay phim chuyên nghiệp đỉnh cao.",
+    "pathImage": "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/i/p/iphone-11-pro-midnight-green-select-2019.png"
+  },
+  {
+    "id": 5,
+    "name": "Apple iPhone XS Max 64GB Chính hãng(VN/A)",
+    "price": 100,
+    "desc": "Giảm 200.000đ khi mua kèm tai nghe airpods và 1 km khác",
+    "content": "Chính thức ra mắt vào tháng 9 năm 2018, iPhone XS MAX là một trong những dòng flagship thành công nhất của Apple. Không phụ kỳ vọng của người hâm mộ, iPhone XS MAX 64GB chính hãng VN/A sỡ hữu những công nghệ nổi bật như chip A12 mạnh mẽ, màn hình rộng đến 6.5 inches, camera kép AI, Face ID nâng cấp cùng dung lượng bộ nhớ tối ưu.",
+    "pathImage": "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/i/p/iphone_xs_max_64gb.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Vsmart Active 3 6GB Ram",
+    "price": 70,
+    "desc": "Tặng loa bluetooth anker ace a1 a3151 và 2 km khác",
+    "content": "Vsmart Active 3 - Điện thoại giá rẻ thương hiệu Việt\nVsmart thuộc tập đoàn Vingroup là dòng điện thoại thương hiệu Việt đang ngày càng được đông đảo người dân quan tâm. Mới đây, hãng tiếp tục giới thiệu thêm nhiều mẫu smartphone mới như Vsmart  Live 3, Vsmart  Star 3... và Vsmart Active 3. Trong đó, Active 3 mang trong mình nhiều tính năng và cấu hình cao với mức giá vô cùng tốt.",
+    "pathImage": "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/v/s/vsmart-active-3-6gb-ram-1_6_2.jpg"
+  }
+]

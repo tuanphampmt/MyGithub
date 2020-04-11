@@ -1,0 +1,19 @@
+export const GET_DATA = "GET_DATA_USER";
+export const ADD_NEW_PRODUCT = "ADD_NEW_PRODUCT";
+export const FORM_STATUS = "FORM_STATUS";
+export const SORT_ASC_STATUS = "SORT_ASC_STATUS";
+export const SORT_DESC_STATUS = "SORT_DESC_STATUS";
+export const ADMIN_STATUS = "ADMIN_STATUS";
+export const MODERATOR_STATUS = "ADMIN_STATUS";
+export const NORMAL_STATUS = "ADMIN_STATUS";
+export const SEARCH_STATUS = "SEARCH_STATUS";
+export const GET_TEXT_SEARCH = "GET_TEXT_SEARCH";
+export const USER_EDIT_OBJECT = "USER_EDIT_OBJECT";
+export const USER_EDIT_STATUS = "USER_EDIT_STATUS";
+export const GET_USER_DELETE = "GET_USER_DELETE";
+export const GET_USER_EDIT = "GET_USER_EDIT";
+export const POST_USER_DELETE = "POST_USER_DELETE";
+export const POST_USER_UPDATE = "POST_USER_UPDATE";
+export const POST_USER_ADD = "POST_USER_ADD";
+
+

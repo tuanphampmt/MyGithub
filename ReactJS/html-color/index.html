@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Title</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+	</head>
+	<body>
+		<script>
+			var arr = [
+				{
+					_id: "5e8433967c736b1e6ead1eee",
+					name: "An",
+					telephone: "1231435",
+					permissions: 1,
+				},
+				{
+					_id: "5e84339e7c736b1e6ead1eef",
+					name: "Binh",
+					telephone: "+841206167662",
+					permissions: 1,
+				},
+				{
+					_id: "5e8436211e79ac1efe6c2817",
+					name: "Tuan",
+					telephone: "+841206167662",
+					permissions: 1,
+				},
+				{
+					_id: "5e84366a1e79ac1efe6c2818",
+					name: "Vu",
+					telephone: "0777561933",
+					permissions: 2,
+				},
+				{
+					_id: "5e8574d8504c7a35a30f07d6",
+					name: "Huyen",
+					telephone: "0321043",
+					permissions: 3,
+				},
+			];
+			var action = {
+				_id: "5e8574d8504c7a35a30f07d6",
+				name: "Huyen",
+				telephone: "1111",
+				permissions: 1,
+			};
+			const findByIdAndUpdate = (items, id, item) =>
+				items.map(({ _id, name, telephone, permissions, ...items }) => ({
+					...items,
+					name: id === _id ? item.name : name,
+					telephone: id === _id ? item.telephone : telephone,
+					permissions: id === _id ? item.permissions : permissions,
+				}));
+			// const findByIdAndUpdate = (array, id, action) =>
+			// 	array.map(({ _id, name, telephone, permissions, ...array }) => console.log(id, name, telephone, permissions));
+			console.log(findByIdAndUpdate(arr, action._id, action));
+		</script>
+	</body>
+</html>
